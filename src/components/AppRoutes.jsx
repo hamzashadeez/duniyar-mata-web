@@ -9,9 +9,12 @@ function AppRoutes() {
   const [user, setUser] = useRecoilState(userData);
 
   return (
+    <div className="bg-gray-50">
     <Routes>
       <Route path='/' element={<HomePage />} />
     </Routes>
+
+    </div>
   );
 }
 
