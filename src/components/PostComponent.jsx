@@ -6,7 +6,7 @@ function PostComponent({data}) {
   return (
     <Link to={`/post/${data?.id}`}>
       <div className='bg-white shadow-sm mb-3 p-3'>
-        <div className='flex items-center gap-1 mb-2 '>
+        <div className='flex items-center gap-4 mb-2 '>
           <p>12 Likes</p>
           <p>12 Comments</p>
           <p>12 Views</p>

@@ -29,6 +29,9 @@ function SinglePost() {
 
       {post && (
         <div className='px-5 mt-5'>
+          <div className="flex items-center justify-center bg-white shadow-sm mb-4">
+            <img alt="Duniyar Mata" src="/2.png" />
+          </div>
           <div className='flex items-center gap-1 mb-2 '>
             <p>12 Likes</p>
             <p>12 Comments</p>

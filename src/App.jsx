@@ -5,7 +5,9 @@ import Header from "./components/Header";
 function App() {
   return (
     <RecoilRoot>
-      <Header />
+      <div className='sticky top-0 left-0 w-full mb-3'>
+        <Header />
+      </div>
       <AppRoutes />
     </RecoilRoot>
   );

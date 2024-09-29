@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
 import Button from "./RippleBtn";
 import RegisterModal from "./RegisterModal";
+import { Link } from "react-router-dom";
 
 function Header() {
   // register modal states
@@ -25,9 +26,9 @@ function Header() {
         <Button onClick={handleRegisterOpen} className='text-sm text-white bg-brand px-5 py-1.5 rounded'>
           Login
         </Button>
-        <Button className='text-sm font-semibold border-2 border-brand text-brand bg-white px-4 py-1.5 rounded'>
+        <Link to={"register"} className='text-sm font-semibold border-2 border-brand text-brand bg-white px-4 py-1.5 rounded'>
           Register
-        </Button>
+        </Link>
       </div>
     </div>
     <RegisterModal open={openRegisterModal} handleClose={handleRegisterClose} />
